@@ -31,5 +31,15 @@ export OPENAI_API_KEY=sk-xxxxxxxx
 3. Start
 ```sh
 # start the demo. Note Google.com no longer exposes the input field. Use an alternative search engine 
-python natbot.py https://duckdukego.com
+python natbot.py 
+```
+The default is google.com. You need to switch:
+
+```
+g
+http://duckduckgo.com
+t
+3
+what is today's date
+...
 ```
