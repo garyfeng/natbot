@@ -12,3 +12,24 @@ Lots of ideas for improvement:
 - Let the agent use multiple tabs and switch between them
 
 Improvements welcome!
+
+# Installation
+Using the GitHub CodeSpace, first launch the codespace. 
+
+1. Edit the `natbot.py` to set `headless=True` (L169)
+
+2. In the terminal, do the following
+
+```sh
+# install dependencies
+pip install playwright, openai
+playwright install
+# set up OpenAI
+export OPENAI_API_KEY=sk-xxxxxxxx
+
+```
+3. Start
+```sh
+# start the demo. Note Google.com no longer exposes the input field. Use an alternative search engine 
+python natbot.py https://duckdukego.com
+```
